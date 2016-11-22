@@ -1,0 +1,30 @@
+TABLE {
+	FONT-SIZE: 12px; LINE-HEIGHT: 1.5; FONT-STYLE: normal
+}
+A {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #ff6600; LINE-HEIGHT: 1.5; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.a1 {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 1.5; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.table1 {
+	FONT-SIZE: 14px
+}
+.input1 {
+	BORDER-RIGHT: #666699 1px dotted; BORDER-TOP: #666699 1px dotted; FONT-SIZE: 12px; BORDER-LEFT: #666699 1px dotted; LINE-HEIGHT: normal; BORDER-BOTTOM: #666699 1px dotted; FONT-STYLE: normal
+}
+.table2 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.dotY {
+	BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(dot.gif); BACKGROUND-REPEAT: repeat-y
+}
+.dotX {
+	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(dot.gif); BACKGROUND-REPEAT: repeat-x
+}
+.wenbenkuang {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #999999 1px solid; COLOR: #333333; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: "ËÎÌו"
+}
+.go-wenbenkuang {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "ËÎÌו"; HEIGHT: 19px; BACKGROUND-COLOR: #eeeeee
+}

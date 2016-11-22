@@ -1,0 +1,85 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SYS.aspx.cs" Inherits="Admin_SYS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+	
+		<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+     <link href="../css/CSS2.css" rel="Stylesheet" />
+    <style type="text/css">
+        .style1
+        {
+            height: 18px;
+            width: 301px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <!--******************************增加页面代码********************************-->
+
+<table cellSpacing="0" cellPadding="0" border="0" class="table">
+	<tr>
+	<td height="25" align="center" class="tdHeader" colspan="2">
+		[实验室介绍管理]</td>
+	</tr>
+			<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 主题：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:TextBox id="txt主题" runat="server" Width="261px"></asp:TextBox>
+             
+        </td></tr>
+				<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 内容：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:TextBox id="txt内容" runat="server" Width="263px" Height="193px" 
+                                    TextMode="MultiLine"></asp:TextBox>
+             
+        </td></tr>
+				<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 图片1：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:FileUpload ID="FileUpload1" runat="server" />
+                                <asp:ImageButton ID="ImageButton1" runat="server" 
+                                    ImageUrl="~/images/button_save.gif" onclick="ImageButton1_Click" 
+                                    style="height: 17px" />
+             
+        </td></tr>
+				<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 图片2：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:FileUpload ID="FileUpload2" runat="server" />
+                                <asp:ImageButton ID="ImageButton2" runat="server" 
+                                    ImageUrl="~/images/button_save.gif" onclick="ImageButton2_Click" />
+             
+        </td></tr>
+				<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 图片3：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:FileUpload ID="FileUpload3" runat="server" />
+                                <asp:ImageButton ID="ImageButton3" runat="server" 
+                                    ImageUrl="~/images/button_save.gif" onclick="ImageButton3_Click" />
+             
+        </td></tr>
+				<tr class="TdStyle"><td style=" text-align: center; width: 151px; height: 18px;">		
+		 图片4：</td>
+        <td style="text-align: left; " class="style1">
+                                <asp:FileUpload ID="FileUpload4" runat="server" />
+                                <asp:ImageButton ID="ImageButton4" runat="server" 
+                                    ImageUrl="~/images/button_save.gif" onclick="ImageButton4_Click" />
+             
+        </td></tr>
+			<tr>
+	<td height="25" colspan="2"><div align="center">
+		<asp:ImageButton ID="btnAdd" runat="server" 
+            ImageUrl="~/images/button_ok.gif" onclick="btnAdd_Click" />
+	&nbsp;</div></td></tr>
+	</table>
+
+    
+    </div>
+    </form>
+</body>
+</html>
